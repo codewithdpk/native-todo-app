@@ -1,4 +1,6 @@
 import { extendTheme } from "native-base";
-import { palettes } from "./palettes";
+import { components } from "./components";
 
-export const appTheme = extendTheme({ colors: palettes });
+export const appTheme = extendTheme({
+  components: components,
+});
